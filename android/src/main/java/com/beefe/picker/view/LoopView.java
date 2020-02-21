@@ -151,7 +151,7 @@ public class LoopView extends View {
         if (items == null) {
             return;
         }
-        maxTextHeight = textSize;
+        maxTextHeight = (int) (textSize * 1.5);
 
         halfCircumference = (int) (maxTextHeight * lineSpacingMultiplier * (itemsVisible - 1));
         measuredHeight = (int) ((halfCircumference * 2) / Math.PI);
