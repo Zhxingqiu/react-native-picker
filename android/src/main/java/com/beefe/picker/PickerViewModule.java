@@ -210,7 +210,7 @@ public class PickerViewModule extends ReactContextBaseJavaModule implements Life
                             break;
                     }
                     commonEvent(EVENT_KEY_CONFIRM);
-                    hide();
+                    //hide();
                 }
             });
 
@@ -411,7 +411,7 @@ public class PickerViewModule extends ReactContextBaseJavaModule implements Life
                     window.setAttributes(layoutParams);   
                 }
             } else {
-                dialog.dismiss();
+                //dialog.dismiss();
                 dialog.setContentView(view);
             }
         }
